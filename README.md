@@ -1,12 +1,34 @@
-# React + Vite
+# 🎬 Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern movie discovery application built with **React (JSX)**, integrated with **TMDB API** for fetching movie details and **Appwrite** for backend services like authentication, database storage, and trending movie tracking.  
+It features a **Trending Movies** section that displays the most searched movies based on real user activity, along with a debounced search for smoother performance.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- 🔍 **Search Movies** – Find movies instantly via TMDB API with debounced input for better performance.
+- 📈 **Trending Movies** – Dynamically updated list of movies most searched by users.
+- 🔐 **Appwrite Integration** – Tracks search counts and stores trending data in a secure backend.
+- 🎨 **Responsive UI** – Mobile-friendly layout for a smooth viewing experience.
+- ⚡ **Performance Optimized** – Uses `react-use` debounce hook to minimize API calls.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** React (JSX)
+- **Backend:** Appwrite
+- **API:** TMDB API
+- **Styling:** CSS / Tailwind CSS
+- **Package Manager:** npm
+- **Libraries:** react-use (for debounce)
+
+---
+
+## ⚙️ Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/movie-app.git
+   cd movie-app
